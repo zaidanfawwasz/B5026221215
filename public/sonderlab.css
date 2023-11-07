@@ -1,0 +1,123 @@
+@media (orientation: portrait) {
+}
+
+@media (orientation: landscape) {
+}
+
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
+.tombol a:hover {
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.ZDNkotak a {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.ZDNlogo {
+    text-align: center;
+}
+
+.ZDNlogo-hyper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.ZDNlogo-hyper img {
+    margin: 0 5px;
+}
+
+.ZDNkotak {
+    margin-top: 20px;
+    margin-bottom: 1px;
+    width: 540px;
+    height: 28px;
+    border: solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 1);
+    margin-bottom: 1%;
+}
+
+.ZDNkotak a {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.ZDNheadline a {
+    font-size: 14px;
+}
+
+.ZDNsubheader a {
+    font-size: 12px;
+}
+
+.ZDNsubheader {
+    margin-top: 8px;
+}
+
+.ZDNkotak {
+    transition: transform 0.3s ease; 
+}
+
+.ZDNkotak:hover {
+    transform: translate(3px, 3px);
+}
+
+.ZDNlogo-hyper img {
+    opacity: 0.7;
+    transition: opacity 0.3s ease; 
+}
+
+.ZDNlogo-hyper img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+.ZDNfooter-linkree {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.ZDNcircle {
+    position: fixed;
+    top: 2%;
+    left: 72%;
+    width: 37px;
+    height: 37px;
+    background-color: #b0b0b0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+  }
+  
+  .ZDNcircle:hover {
+    background-color: #2f2f2f; /* Warna latar belakang saat dihover */
+  }
+
+  
+  .ZDNellipsis {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  
