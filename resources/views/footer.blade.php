@@ -6,5 +6,7 @@
   </style>
 
   <footer>
-    Hak Cipta oleh Muhammad Zaidan Hafsh Fawwaz
+    <div class="mt-4">
+        Hak Cipta oleh Muhammad Zaidan Hafsh Fawwaz
+    </div>
   </footer>
