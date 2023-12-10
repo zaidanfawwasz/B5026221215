@@ -4,7 +4,6 @@
 
 @section('konten')
 
-    <h2>malasngoding corp</h2>
     <h3>Data Nilai Kuliah</h3>
 
     <a href="/nilaikuliah/tambahnilai" class="mb-4 btn btn-primary"> + Tambah Nilai Kuliah</a>

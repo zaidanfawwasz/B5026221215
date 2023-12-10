@@ -11,7 +11,7 @@ class Nilaikuliah extends Controller
 	public function nilaikuliah()
 	{
     	// mengambil data dari table pegawai
-		// $pegawai = DB::table('pegawai')->get();
+		// $pegawai = DB::table('pegawai')->get();  
 		$nilaikuliah = DB::table('nilaikuliah')->get();
 
     	// mengirim data pegawai ke view index

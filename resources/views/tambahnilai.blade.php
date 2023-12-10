@@ -31,7 +31,7 @@
         <div class="form-group row">
             <label for="SKS" class="col-sm-3 col-form-label text-right">SKS</label>
             <div class="col-sm-9">
-                <textarea class="form-control" id="SKS" name="SKS"></textarea>
+                <input class="form-control" id="SKS" name="SKS"></textarea>
             </div>
         </div>
 

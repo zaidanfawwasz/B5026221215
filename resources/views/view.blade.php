@@ -22,8 +22,8 @@
                 <!-- Kiri (Isi kosong) -->
             </div>
 
-            <div class = "col-md-6">
-                <table class = "table table-hover">
+            <div class = "col-md-6 no-border">
+                <table class="table table-no-border table-hover">
                     <tr>
                         <th> Nama </th>
                         <td> {{ $pegawai->pegawai_nama }} </td>
