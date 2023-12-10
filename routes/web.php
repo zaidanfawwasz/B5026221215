@@ -94,6 +94,12 @@ Route::post('/keranjangbelanja/store','App\Http\Controllers\KBController@store')
 Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KBController@batal');
 
 
+Route::get('/mobil','App\Http\Controllers\MobilController@mobil');
+Route::post('/mobil/store','App\Http\Controllers\MobilController@store');
+Route::get('/mobil/tambahmobil', 'App\Http\Controllers\MobilController@tambahmobil');
+
+
+
 
 
 
