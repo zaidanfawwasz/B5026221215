@@ -98,8 +98,8 @@ Route::get('/mobil','App\Http\Controllers\MobilController@mobil');
 Route::post('/mobil/store','App\Http\Controllers\MobilController@store');
 Route::get('/mobil/tambahmobil', 'App\Http\Controllers\MobilController@tambahmobil');
 
-
-
+Route::get('/kategori','App\Http\Controllers\kategoriController@index');
+Route::post('/kategori/pilih','App\Http\Controllers\kategoriController@pilih');
 
 
 

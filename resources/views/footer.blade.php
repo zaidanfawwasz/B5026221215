@@ -1,12 +1,13 @@
 <style>
     footer {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        justify-content: left;
+        margin-left: 16%
     }
-  </style>
+</style>
 
-  <footer>
-    <div class="mt-4">
-        Hak Cipta oleh Muhammad Zaidan Hafsh Fawwaz
+<footer>
+    <div class="mt-4 text-left">
+        © Zaidan Fawwasz, 2023
     </div>
-  </footer>
+</footer>
